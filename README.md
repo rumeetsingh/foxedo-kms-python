@@ -6,13 +6,12 @@ Access your FoxedoKMS keys using this package
 pip install FoxedoKMS
 ```
 
-## Import FetchKeys
+## Import foxedo_kms
 ```python
 from foxedo_kms import keys
 ```
 
 ## Usage
-
 ```python
 fox = keys.Foxedo('Your Access Key')
 my_key = fox.get_key('Key Id')
