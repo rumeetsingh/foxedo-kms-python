@@ -1,14 +1,10 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name = 'FoxedoKMS',
     packages = setuptools.find_packages(),
     version = 1.0,  # Ideally should be same as your GitHub release tag varsion
     description = 'Access your FoxedoKMS Keys with this package.',
-    long_description=long_description,
     long_description_content_type="text/markdown",
     author = 'Rumeet Singh',
     author_email = 'singh.rumeet5@gmail.com',
