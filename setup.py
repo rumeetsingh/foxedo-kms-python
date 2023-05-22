@@ -16,7 +16,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'requests==2.22.0',
+        'requests==2.31.0',
         'argon2-cffi==19.1.0',
         'PyNaCl==1.3.0',
     ],
